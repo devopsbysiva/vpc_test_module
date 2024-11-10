@@ -4,5 +4,7 @@ module "aws_vpc" {
     # igw_tag = var.tag_igw
     project = var.project #"expense"
     envirnoment = var.envirnoment #"dev"
-    public_subnet_cidr = var.public_subnet_cidr #,"10.0.2.0/24"]
+    public_subnet_cidr = var.public_subnet_cidr 
+    private_subnet_cidr = var.private_subnet_cidr
+    database_subnet_cidr = var.database_subnet_cidr
 }
