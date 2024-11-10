@@ -1,15 +1,8 @@
-variable "tags_vpc" {
-    default = {
-      developer1 = "ganesh"
-      developer2 = "ramesh"
-    }
+variable "project" {
+  default = "expense"
 }
 
-variable "tag_igw" {
-    default = {
-      developer1 = "moka"
-      developer2 = "uday"
-
-    }
+variable "envirnoment" {
+  default = "dev"
 }
 
