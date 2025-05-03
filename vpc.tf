@@ -1,5 +1,5 @@
 module "aws_vpc" {
-    source = "../terraform_aws_vpc"
+    source = " ../terraform_aws_vpc"
     # vpc_tag = var.tags_vpc
     # igw_tag = var.tag_igw
     project = var.project #"expense"
@@ -9,4 +9,3 @@ module "aws_vpc" {
     database_subnet_cidr = var.database_subnet_cidr
     is_peering_requried = true
 }
-
